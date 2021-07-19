@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23442beb%22></rect><path fill=%22%23fff%22 d=%22M31.78 59.54L31.78 59.54Q31.32 59.87 30.56 60.13Q29.80 60.39 28.88 60.39L28.88 60.39Q27.82 60.39 27.00 60.06Q26.17 59.73 25.84 59.01L25.84 59.01Q22.28 51.62 19.71 45.48Q17.13 39.34 15.55 35.31L15.55 35.31L15.28 35.31Q15.09 40.26 14.85 44.52Q14.62 48.78 14.36 52.84Q14.10 56.90 13.83 61.05Q13.57 65.21 13.30 69.96L13.30 69.96Q12.91 70.10 12.28 70.23Q11.65 70.36 10.93 70.36L10.93 70.36Q9.48 70.36 8.88 69.77Q8.29 69.17 8.29 68.05L8.29 68.05Q8.29 67.39 8.39 65.21Q8.49 63.03 8.68 59.93Q8.88 56.83 9.11 53.07Q9.34 49.31 9.64 45.41Q9.94 41.52 10.23 37.76Q10.53 33.99 10.80 30.89L10.80 30.89Q11.32 30.43 12.31 30.03Q13.30 29.64 14.56 29.64L14.56 29.64Q17.59 29.64 18.78 32.08L18.78 32.08Q20.04 34.65 21.32 37.53Q22.61 40.40 23.90 43.37Q25.18 46.34 26.40 49.24Q27.63 52.14 28.75 54.78L28.75 54.78L29.01 54.78Q30.46 51.29 31.92 47.89Q33.37 44.49 34.75 41.32Q36.14 38.15 37.39 35.38Q38.65 32.61 39.64 30.30L39.64 30.30Q40.23 29.97 41.16 29.80Q42.08 29.64 42.87 29.64L42.87 29.64Q45.97 29.64 46.44 31.75L46.44 31.75Q46.70 32.94 47.03 35.68Q47.36 38.42 47.69 41.98Q48.02 45.54 48.32 49.64Q48.61 53.73 48.88 57.52Q49.14 61.32 49.34 64.52Q49.54 67.72 49.67 69.57L49.67 69.57Q48.48 70.36 46.90 70.36L46.90 70.36Q45.91 70.36 45.15 69.87Q44.39 69.37 44.26 68.05L44.26 68.05Q43.93 63.23 43.66 58.48Q43.40 53.73 43.17 49.44Q42.94 45.15 42.74 41.55Q42.54 37.95 42.41 35.45L42.41 35.45L42.15 35.45Q41.42 37.29 40.46 39.60Q39.51 41.91 38.22 44.82Q36.93 47.72 35.35 51.39Q33.76 55.05 31.78 59.54ZM85.77 68.05L82.80 59.27L65.11 59.27Q64.65 60.59 64.12 62.14Q63.60 63.69 63.10 65.18Q62.61 66.66 62.14 67.95Q61.68 69.24 61.42 70.10L61.42 70.10Q60.49 70.49 59.24 70.49L59.24 70.49Q58.18 70.49 57.36 69.93Q56.53 69.37 56.53 68.12L56.53 68.12Q56.53 67.52 56.73 66.90Q56.93 66.27 57.19 65.54L57.19 65.54Q58.18 62.77 59.73 58.41Q61.29 54.06 63.10 49.14Q64.92 44.22 66.80 39.24Q68.68 34.26 70.26 30.30L70.26 30.30Q70.79 30.03 71.85 29.77Q72.90 29.51 74.02 29.51L74.02 29.51Q75.34 29.51 76.56 29.90Q77.79 30.30 78.12 31.22L78.12 31.22Q79.70 35.05 81.52 39.97Q83.33 44.88 85.18 50.03Q87.03 55.18 88.71 60.16Q90.39 65.15 91.71 69.17L91.71 69.17Q91.18 69.77 90.46 70.13Q89.73 70.49 88.81 70.49L88.81 70.49Q87.55 70.49 86.89 69.93Q86.23 69.37 85.77 68.05L85.77 68.05ZM74.22 33.99L73.96 33.99Q73.23 35.97 72.31 38.52Q71.38 41.06 70.39 43.83Q69.40 46.60 68.41 49.44Q67.42 52.28 66.57 54.85L66.57 54.85L81.42 54.85Q80.43 51.88 79.37 48.88Q78.31 45.87 77.36 43.10Q76.40 40.33 75.58 37.99Q74.75 35.64 74.22 33.99L74.22 33.99Z%22></path></svg>" />
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+    <title>Maria's Profile | Home </title>
+  </head>
+  <body>
+
+
+
+    <nav class="navbar   text-size navbar-expand-lg navbar-dark bg-primary">
+        <div class=" container-fluid">
+          <a class="navbar-brand text-size"   href="#">MaRia Abid</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="academic_qualifications.html">Academic Qualifications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blogs.html">Blogs</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-light" type="submit">Download CV</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+      
+
+        
+      <div class="container mt-4 border-red">
+
+        <div  class="blue-border d-flex flex-column bd-highlight ">
+            <div id="name"  class="yellow-border text-center  p-2 fs-1 mt-3 fw-bolder bd-highlight">Hello, I'm MaRia Abid</div>
+            <div id="deg"  class="green-border text-center p-2  fs-3 mt-1 fw-bold bd-highlight "> Software Engineer</div>
+          <div  class="green-border text-center p-2  fs-4 mt-1 fw-bold bd-highlight "> 
+
+
+       <a href="https://www.fiverr.com/mariaabid57?up_rollout=true" target="_blank"><button type="button" id="servicesBtn" class="btn btn-outline-primary"><span class="fw-bolder fs-5">Take My Services</span> </button></a>
+
+
+          </div>
+            <!-- <button class="btn mt-3 btn-outline-primary btn-sm btn-block" >Take my Services</button> -->
+            
+            
+          </div>
+          
+
+
+    </div>
+
+
+
+        
+      <div class="container mt-1 border-red">
+
+        <div  class="d-flex flex-column bd-highlight mb-3">
+            <div  class="p-2 fs-2 m-3 fw-bolder text-center bd-highlight">Objective</div>
+            <div id="obj"  class="p-2 text-center  fs-4 m-3 bd-highlight">A Sophomore student with two years of Educational experience as highly dynamic and self motivated indivisual.Looking for dynamic and progressive company to utilize my technical skills and working knowledge of software applications, development and design.Keen to enhance my skills in: Visio, Draw.io, Linux, Ms Office.</div>
+            
+          </div>
+
+
+
+    </div>
+
+
+
+
+
+            
+    <div class="container mt-3 border-red">
+
+        <div  class="d-flex flex-column bd-highlight mb-3">
+            <div  class="p-2 fs-2 fw-bolder  m-3 text-center bd-highlight">Skills</div>
+            
+            <div   class="p-2 text-center flex  fs-5 m-3 bd-highlight">
+            
+
+                <div id="skill1"  class="skills"><img  class="img-fluid" src="skills/c++.png"  alt="" srcset=""> </div>
+                <div id="skill2" class="skills"><img class="img-fluid" src="skills/umlfinal.png"  alt="" srcset=""> </div>
+                <div id="skill3" class="skills"><img class="img-fluid" src="skills/office.png"  alt="" srcset=""> </div>
+                <div id="skill4" class="skills"><img class="img-fluid" src="skills/ui ux.png"  alt="" srcset=""></div>
+                <div id="skill5" class="skills"><img class="img-fluid" src="skills/java.png"  alt="" srcset=""></div>
+                <div id="skill6" class="skills"><img class="img-fluid" src="https://www.pngitem.com/pimgs/m/520-5208614_curso-programacin-front-end-completo-transparent-html-css.png"  alt="" srcset=""></div>
+                
+
+            </div>
+            
+          </div>
+
+
+
+    </div>
+
+
+
+
+
+
+    <div class="container-fluid footer mt-4 bg-primary flex">
+
+        Copyright &copy; 2021-22 | All Rights Reserved
+
+
+
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+<script>
+
+
+  $('#name').hide();
+  $('#servicesBtn').hide();
+  $('#obj').hide();
+  $('#deg').hide();
+  
+  
+  for (let i = 1; i < 7; i++) {
+ 
+    $(`#skill${i}`).hide();
+    
+  }
+  
+
+
+
+$('#name').show(3000, function () {
+        $('#name').show();
+    });   
+
+$('#skill1').show(3000, function () {
+        $('#skill1').show();
+    });   
+
+$('#skill2').show(3000, function () {
+        $('#skill2').show();
+    });   
+
+$('#skill3').show(3000, function () {
+        $('#skill3').show();
+    });   
+
+$('#skill4').show(3000, function () {
+        $('#skill4').show();
+    });   
+
+$('#skill5').show(3000, function () {
+        $('#skill5').show();
+    });   
+
+$('#skill6').show(3000, function () {
+        $('#skill6').show();
+    });   
+
+
+
+$('#deg').show(5000, function () {
+        $('#deg').show();
+    });   
+
+$('#servicesBtn').show(6000, function () {
+        $('#servicesBtn').show();
+    });   
+$('#obj').show(7000, function () {
+        $('#obj').show();
+    });   
+
+
+    </script>
+
+    <script src="index.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23442beb%22></rect><path fill=%22%23fff%22 d=%22M31.78 59.54L31.78 59.54Q31.32 59.87 30.56 60.13Q29.80 60.39 28.88 60.39L28.88 60.39Q27.82 60.39 27.00 60.06Q26.17 59.73 25.84 59.01L25.84 59.01Q22.28 51.62 19.71 45.48Q17.13 39.34 15.55 35.31L15.55 35.31L15.28 35.31Q15.09 40.26 14.85 44.52Q14.62 48.78 14.36 52.84Q14.10 56.90 13.83 61.05Q13.57 65.21 13.30 69.96L13.30 69.96Q12.91 70.10 12.28 70.23Q11.65 70.36 10.93 70.36L10.93 70.36Q9.48 70.36 8.88 69.77Q8.29 69.17 8.29 68.05L8.29 68.05Q8.29 67.39 8.39 65.21Q8.49 63.03 8.68 59.93Q8.88 56.83 9.11 53.07Q9.34 49.31 9.64 45.41Q9.94 41.52 10.23 37.76Q10.53 33.99 10.80 30.89L10.80 30.89Q11.32 30.43 12.31 30.03Q13.30 29.64 14.56 29.64L14.56 29.64Q17.59 29.64 18.78 32.08L18.78 32.08Q20.04 34.65 21.32 37.53Q22.61 40.40 23.90 43.37Q25.18 46.34 26.40 49.24Q27.63 52.14 28.75 54.78L28.75 54.78L29.01 54.78Q30.46 51.29 31.92 47.89Q33.37 44.49 34.75 41.32Q36.14 38.15 37.39 35.38Q38.65 32.61 39.64 30.30L39.64 30.30Q40.23 29.97 41.16 29.80Q42.08 29.64 42.87 29.64L42.87 29.64Q45.97 29.64 46.44 31.75L46.44 31.75Q46.70 32.94 47.03 35.68Q47.36 38.42 47.69 41.98Q48.02 45.54 48.32 49.64Q48.61 53.73 48.88 57.52Q49.14 61.32 49.34 64.52Q49.54 67.72 49.67 69.57L49.67 69.57Q48.48 70.36 46.90 70.36L46.90 70.36Q45.91 70.36 45.15 69.87Q44.39 69.37 44.26 68.05L44.26 68.05Q43.93 63.23 43.66 58.48Q43.40 53.73 43.17 49.44Q42.94 45.15 42.74 41.55Q42.54 37.95 42.41 35.45L42.41 35.45L42.15 35.45Q41.42 37.29 40.46 39.60Q39.51 41.91 38.22 44.82Q36.93 47.72 35.35 51.39Q33.76 55.05 31.78 59.54ZM85.77 68.05L82.80 59.27L65.11 59.27Q64.65 60.59 64.12 62.14Q63.60 63.69 63.10 65.18Q62.61 66.66 62.14 67.95Q61.68 69.24 61.42 70.10L61.42 70.10Q60.49 70.49 59.24 70.49L59.24 70.49Q58.18 70.49 57.36 69.93Q56.53 69.37 56.53 68.12L56.53 68.12Q56.53 67.52 56.73 66.90Q56.93 66.27 57.19 65.54L57.19 65.54Q58.18 62.77 59.73 58.41Q61.29 54.06 63.10 49.14Q64.92 44.22 66.80 39.24Q68.68 34.26 70.26 30.30L70.26 30.30Q70.79 30.03 71.85 29.77Q72.90 29.51 74.02 29.51L74.02 29.51Q75.34 29.51 76.56 29.90Q77.79 30.30 78.12 31.22L78.12 31.22Q79.70 35.05 81.52 39.97Q83.33 44.88 85.18 50.03Q87.03 55.18 88.71 60.16Q90.39 65.15 91.71 69.17L91.71 69.17Q91.18 69.77 90.46 70.13Q89.73 70.49 88.81 70.49L88.81 70.49Q87.55 70.49 86.89 69.93Q86.23 69.37 85.77 68.05L85.77 68.05ZM74.22 33.99L73.96 33.99Q73.23 35.97 72.31 38.52Q71.38 41.06 70.39 43.83Q69.40 46.60 68.41 49.44Q67.42 52.28 66.57 54.85L66.57 54.85L81.42 54.85Q80.43 51.88 79.37 48.88Q78.31 45.87 77.36 43.10Q76.40 40.33 75.58 37.99Q74.75 35.64 74.22 33.99L74.22 33.99Z%22></path></svg>" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+    <title>Maria's Profile | Blogs </title>
+  </head>
+  <body>
+
+
+
+    <nav class="navbar text-size navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-size"   href="#">MaRia Abid</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              
+              
+              <li class="nav-item">
+                <a class="nav-link " href="academic_qualifications.html">Academic Qualifications</a>
+              </li>
+              
+              
+              <li class="nav-item">
+                <a class="nav-link " href="projects.html">Projects</a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link active" href="blogs.html">Blogs</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              
+              <!-- <ig class="btn btn-outline-light mx-2" type="submit">Linkedin</button> -->
+              
+                <!-- <img src="linkedinlogo.png" alt="" class="img-fluid mx-3"> -->
+              
+                <button class="btn btn-outline-light" type="submit">Download CV</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+      <h3 class="text-center fw-bolder mt-4">Blogs</h3>
+
+
+
+      <div class="container ">
+
+
+
+        <div class="media  mt-3 flex2">
+            <img class=" align-self-start mr-3  img-fluid img-blogs"   src="default user.png" alt="Generic placeholder image">
+            <div class="media-body ">
+              <h5 class="mt-0 fw-bolder">What does Software Engineer do?</h5>
+              <h6 class="mt-0 fw-bold">Maria Abid</h6>
+              <p id="blog1" class="fw-3 project-desc">
+                As a software engineer, you'll need to: analyse user requirements. write and test code, refining and rewriting Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis tempora inventore quis. Aliquid mollitia sed provident iure nesciunt. Non necessitatibus, labore commodi tenetur molestias vitae. Nisi dolorum itaque esse rem iste vel saepe eum est nam aliquam consequatur, sit quae neque consectetur reiciendis quas officia animi tenetur doloribus repellendus voluptate quam autem! Voluptate voluptas enim velit sapiente quisquam ipsam, delectus obcaecati ut itaque harum non, pariatur, ab odio saepe ratione asperiores provident molestias mollitia. Dicta voluptatum, sit recusandae fugit necessitatibus officia non, sapiente qui modi id similique obcaecati. Assumenda harum quas quasi blanditiis iusto nihil a modi quae, excepturi dolores. it as necessary and communicate with any programmers involved in the project. research, design and write<span id="dots">...</span>
+                <span id="more" >new software programs (e.g. business applications or computer games) and computer operating systems.</span> 
+              </p>
+
+              <button id="readmore"  class="btn fw-bold ">Read Blog</button>
+              <button id="readless"  class="btn fw-bold ">Exit Blog</button>
+            </div>
+          </div>
+
+        <div class="media  mt-3 flex2">
+            <img class=" align-self-start mr-3  img-fluid img-blogs " src="default user.png" alt="Generic placeholder image">
+            <div class="media-body ">
+
+              <h5 class="mt-0 fw-bolder">What does Software Engineer do?</h5>
+              <h6 class="mt-0 fw-bold">Maria Abid</h6>
+
+              <p id="blog2" class="project-desc">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tenetur aliquid aut nostrum sunt dignissimos amet ratione nobis exercitationem, voluptate eligendi esse laboriosam assumenda maiores repellendus soluta id omnis obcaecati laudantium harum! Libero nesciunt ducimus cumque, amet minima eius dicta facere nihil quam repellendus, tenetur porro, corporis quibusdam quasi animi commodi tempora et ad? Neque quos cum aliquam ea vitae, ducimus libero voluptatum mollitia, autem animi cupiditate accusamus asperiores dolorum ipsum sequi voluptas non hic, iure sed vero magni voluptates! Cumque ipsam quaerat atque id doloremque a eaque facere! Dicta, laborum aut eos accusamus temporibus pariatur perferendis possimus ipsum! Aperiam? in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+
+              <button id="readmore2"  class="btn fw-bold  ">Read Blog</button>
+              <button id="readless2"  class="btn fw-bold ">Exit Blog</button>
+            </div>
+          </div>
+
+        <div class="media  mt-3 flex2">
+            <img class=" align-self-start mr-3 img-fluid img-blogs " src="default user.png" alt="Generic placeholder image">
+  
+            <div class="media-body">
+  
+              <h5 class="mt-0 fw-bolder">What does Software Engineer do?</h5>
+              <h6 class="mt-0 fw-bold">Maria Abid</h6>
+  
+              <p id="blog3" class="project-desc">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus quaerat, ipsum vitae consequuntur error quod facilis obcaecati optio ab hic veniam nihil, tempora natus officia placeat! Voluptatibus qui velit similique non fugit. Quod iste magni, deleniti esse aperiam quisquam quibusdam facere, perspiciatis voluptatibus fugiat voluptatum similique atque eius reiciendis modi possimus tempore asperiores! Ipsa maiores perferendis officiis dolorem debitis tempore nesciunt minima at illum, neque tempora facere excepturi sequi quaerat sed possimus consectetur non necessitatibus. Et repudiandae error minus corporis dolore qui repellat doloribus a, velit quaerat temporibus libero incidunt ducimus similique enim, labore vitae dolorem? Expedita id culpa ducimus.
+                 vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+
+              <button id="readmore3"  class="btn fw-bold ">Read Blog</button>
+              <button id="readless3"  class="btn fw-bold">Exit blog</button>
+            </div>
+          </div>
+        <div class="media  mt-3 flex2">
+            <img class=" align-self-start mr-3 img-fluid img-blogs " src="default user.png" alt="Generic placeholder image">
+  
+            <div class="media-body">
+  
+              <h5 class="mt-0 fw-bolder">What does Software Engineer do?</h5>
+              <h6 class="mt-0 fw-bold">Maria Abid</h6>
+  
+              <p id="blog4" class="project-desc">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nihil provident fugiat assumenda quae aliquid voluptatibus exercitationem iusto cum dicta laboriosam illo nostrum natus enim consequuntur a? Laboriosam quis officiis adipisci aperiam tenetur totam et deserunt maxime quam omnis, expedita animi dolore blanditiis minima voluptate sit obcaecati quo asperiores veniam architecto eveniet rerum! Sapiente cupiditate sed inventore excepturi ratione deserunt necessitatibus error tempore! Nostrum magnam velit placeat nobis eligendi iste eveniet quis rerum culpa pariatur? Facere libero totam earum eius quaerat, saepe dolores, debitis magnam aliquam quam nemo? Assumenda voluptatibus iusto doloribus fugit accusamus necessitatibus incidunt beatae, hic libero veniam. vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+
+              <button id="readmore4"  class="btn fw-bold ">Read Blog</button>
+              <button id="readless4"  class="btn fw-bold ">Exit Blog</button>
+            </div>
+          </div>
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid footer mt-4 bg-primary flex">
+
+        Copyright &copy; 2021-22 | All Rights Reserved
+
+        
+
+
+
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <script>
+
+
+for (let i = 0; i < 5; i++) {
+
+  
+  $(`#blog${i}`).hide(5000, function () {
+          $('#blog').hide();
+      })   
+  
+}
+
+
+// let btn = document.getElementById('readmore').addEventListener('click',btn);
+
+
+
+
+
+    // $('#wiki').show(1000, function () {
+    //     console.log("show");
+    // })  
+
+
+
+
+    $('#readmore').click( function () {
+        // $('#wiki').fadeIn(2000);
+
+        
+    $('#blog1').show(2000, function () {
+        $('#blog1').show();
+    });   
+
+
+
+    });
+    $('#readmore2').click( function () {
+        // $('#wiki').fadeIn(2000);
+
+        
+    $('#blog2').show(2000, function () {
+        $('#blog2').show();
+    });   
+
+
+
+    });
+
+    
+    $('#readmore3').click( function () {
+        // $('#wiki').fadeIn(2000);
+
+        
+    $('#blog3').show(2000, function () {
+        $('#blog3').show();
+    });   
+
+
+
+    });
+
+    
+    $('#readmore4').click( function () {
+        // $('#wiki').fadeIn(2000);
+
+        
+    $('#blog4').show(2000, function () {
+        $('#blog4').show();
+    });   
+
+
+
+    });
+
+    
+    $('#readless').click(function () {
+        // $('#wiki').fadeOut(2000);
+
+
+        $('#blog1').hide(2000, function () {
+            $('#blog1').hide();
+        })  
+
+
+    });
+
+
+
+    
+    $('#readless2').click(function () {
+        // $('#wiki').fadeOut(2000);
+
+
+        $('#blog2').hide(2000, function () {
+            $('#blog2').hide();
+        })  
+
+
+    });
+
+    $('#readless3').click(function () {
+        // $('#wiki').fadeOut(2000);
+
+
+        $('#blog3').hide(2000, function () {
+            $('#blog3').hide();
+        })  
+
+
+    });
+
+    $('#readless4').click(function () {
+        // $('#wiki').fadeOut(2000);
+
+
+        $('#blog4').hide(2000, function () {
+            $('#blog4').hide();
+        })  
+
+
+    });
+
+
+
+
+
+
+
+
+
+    </script>
+
+    <script src="index.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

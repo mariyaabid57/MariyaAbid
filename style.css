@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    flex-wrap: wrap;
+}
+
+body{
+
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.text-size{
+    font-size: 21px;
+
+}
+
+.skills{
+    /* border: 2px solid purple; */
+    margin: 10px;
+}
+
+.footer-end{
+    height: 80%;
+}
+.skills, img{
+    width: 143px;
+    height: 147px;
+
+}
+.border-red{
+    /* border: 2px solid red; */
+}
+
+.free-container{
+    height: 300px;
+
+}
+
+.project-desc{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.bold-text{
+    font-weight: bolder;
+}
+.container{
+
+    height: fit-content;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+/* flex-wrap: wrap; */
+
+position: relative;
+}
+
+.footer{
+
+    /* border: 2px solid black; */
+    font-size: 21px;
+    height: 60px;
+    color: white;
+    /* background-color:#0D6EFD; */
+
+    position: relative;
+    bottom: 0;
+
+
+
+    
+}
+
+.contact-icons{
+    width: 45px;
+    height: 45px;
+
+}
+
+.projects{
+
+    height: fit-content;
+    width: 15rem;
+}
+
+
+
+.img-blogs{
+    width: 100px;
+}
+.yellow-border{
+    /* border: 2px solid yellow; */
+}
+.blue-border{
+    /* border: 2px solid blue; */
+}
+.green-border{
+    /* border: 2px solid green; */
+}
+
+.flex2{
+    display: flex;
+    
+}
+.footer-qualifications{
+
+    /* border: 2px solid black; */
+    font-size: 21px;
+    height: 60px;
+    color: white;
+    /* background-color:#0D6EFD; */
+
+    position: absolute;
+    bottom: 0;
+
+
+
+    
+}
